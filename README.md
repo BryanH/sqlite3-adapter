@@ -4,9 +4,9 @@
 [![Test Coverage][coveralls-image]][coveralls-url]
 [![Dependency Status][dependencies-image]][dependencies-url]
 
-## JugglingDB-SQLite4
+## JugglingDB-SQLite3
 
-SQLite4 adapter for jugglingdb based on [mapbox/node-sqlite3](https://github.com/mapbox/node-sqlite3) sqlite3 bindings.
+SQLite3 adapter for jugglingdb based on [mapbox/node-sqlite3](https://github.com/mapbox/node-sqlite3) sqlite3 bindings.
 
 ## Installation & Usage
 
@@ -29,7 +29,7 @@ To use it you need `jugglingdb@0.2.x` and `Node` >= 6.14.0.
 
     ```javascript
     var Schema = require('jugglingdb').Schema;
-    var schema = new Schema('sqlite4', {
+    var schema = new Schema('sqlite3', {
         database: ':memory:'
     });
     ```
