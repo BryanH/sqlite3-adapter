@@ -26,11 +26,11 @@ describe('basic-query-sqlite', () => {
     it('should query collection using or operator', () => {
         return UserData.all({
             where : {
-                or : [ {
+                or : [{
                     name : 'Paul McCartney'
                 }, {
                     name : 'John Lennon'
-                } ]
+                }]
             }
         })
             .then(users => {
@@ -45,11 +45,11 @@ describe('basic-query-sqlite', () => {
     it('should query collection using or operator on different fields', () => {
         return UserData.all({
             where : {
-                or : [ {
+                or : [{
                     name : 'Not a User'
                 }, {
                     order : '5'
-                } ]
+                }]
             }
         })
             .then(users => {
@@ -63,11 +63,11 @@ describe('basic-query-sqlite', () => {
         return UserData.all({
             where : {
                 name : 'Ringo Starr',
-                or : [ {
+                or : [{
                     role : 'lead'
                 }, {
                     order : '6'
-                } ]
+                }]
             }
         })
             .then(users => {
@@ -93,7 +93,7 @@ describe('basic-query-sqlite', () => {
     });
 
     it('should support exclusion from non empty set', () => {
-        return UserData.count({ order: { nin: [ 1 ] } })
+        return UserData.count({ order: { nin: [1] } })
             .then(count => {
                 count.should.equal(5);
             });
@@ -157,7 +157,7 @@ describe('basic-query-sqlite', () => {
     });
 
     it('should query by using "BETWEEN"', () => {
-        return UserData.count({ order: { between: [ 3, 5 ] } })
+        return UserData.count({ order: { between: [3, 5] } })
             .then(count => {
                 count.should.equal(3);
             });
@@ -195,7 +195,7 @@ describe('basic-query-sqlite', () => {
 });
 
 function seed() {
-    const beatles = [ {
+    const beatles = [{
         name : 'John Lennon',
         email : 'john@b3atl3s.co.uk',
         role : 'lead',
@@ -215,7 +215,7 @@ function seed() {
         name : 'Pete Best', order : 4
     }, {
         name : 'Stuart Sutcliffe', order : 3
-    } ];
+    }];
 
     return UserData.destroyAll()
         .then(() => Promise.all(beatles.map(beatle => UserData.create(beatle))));
