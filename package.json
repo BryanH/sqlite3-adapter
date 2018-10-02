@@ -1,6 +1,6 @@
 {
   "name": "jugglingdb-sqlite3",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "engines": {
     "node": ">=4"
   },
@@ -13,21 +13,24 @@
     "test-coverage": "istanbul cover node_modules/.bin/_mocha -- -R dot"
   },
   "dependencies": {
-    "debug": "^2.2.0",
+    "debug": "^4.0.1",
     "jugglingdb": "=2.0.0-rc8",
-    "sqlite3": "^3.1.8"
+    "sqlite3": "^4.0.2"
   },
   "devDependencies": {
-    "eslint": "^3.1.0",
+    "eslint": "^5.6.1",
     "eslint-config-1602": "^1.0.0",
     "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^2.5.3",
-    "should": "^9.0.2"
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jugglingdb/sqlite3-adapter.git"
   },
   "author": "Anatoliy Chakkaev <mail@anatoliy.in>",
+  "contributors": [
+    "Bryan Hanks <bryan@master-developer.com"
+  ],
   "license": "MIT"
 }
