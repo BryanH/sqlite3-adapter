@@ -61,8 +61,9 @@ To use it you need `jugglingdb@0.2.x` and `Node` >= 6.14.0.
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
 
-[coveralls-url]: https://coveralls.io/github/BryanH/sqlite3-adapter
-[coveralls-image]: https://coveralls.io/repos/github/BryanH/sqlite3-adapter/badge.svg
+
+[coveralls-url]: https://coveralls.io/github/BryanH/sqlite3-adapter?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/BryanH/sqlite3-adapter/badge.svg?branch=master
 [build-status]: https://travis-ci.org/BryanH/sqlite3-adapter.svg?branch=master
 [build-url]: https://travis-ci.org/BryanH/sqlite3-adapter
 [yarn-image]: https://img.shields.io/badge/yarn-v1.10.1%20%20-blue.svg
