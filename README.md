@@ -1,4 +1,4 @@
-[![NPM Version][npm-image]][npm-url]
+[![Yarn Version][yarn-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Build status][build-image]][build-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
@@ -19,7 +19,7 @@ To use it you need `jugglingdb@0.2.x`.
       ...
       "dependencies": {
         "jugglingdb": "0.2.x",
-        "jugglingdb-sqlite4": "latest"
+        "jugglingdb-sqlite3": "latest"
       },
       ...
     }
@@ -36,22 +36,23 @@ To use it you need `jugglingdb@0.2.x`.
 
 ## Running tests
 
-    npm test
+    yarn test
 
 ## MIT License
 
     Copyright 2012 by Anatoliy Chakkaev
-    
+    Copyright 2018 by Bryan Hanks
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -64,7 +65,7 @@ To use it you need `jugglingdb@0.2.x`.
 [coveralls-image]: https://coveralls.io/repos/github/BryanH/sqlite3-adapter/badge.svg
 [build-url]: https://circleci.com/gh/BryanH/sqlite3-adapter
 [build-image]: https://circleci.com/gh/BryanH/sqlite3-adapter.svg?style=shield
-[npm-image]: https://img.shields.io/npm/v/jugglingdb-sqlite3.svg
+[yarn-image]: https://img.shields.io/badge/yarn-v1.10.1%20%20-blue.svg
 [npm-url]: https://npmjs.org/package/jugglingdb-sqlite3
 [downloads-image]: https://img.shields.io/npm/dm/jugglingdb-sqlite3.svg
 [downloads-url]: https://npmjs.org/package/jugglingdb-sqlite3
