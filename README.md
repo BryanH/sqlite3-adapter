@@ -10,7 +10,7 @@ SQLite4 adapter for jugglingdb based on [mapbox/node-sqlite3](https://github.com
 
 ## Installation & Usage
 
-To use it you need `jugglingdb@0.2.x`.
+To use it you need `jugglingdb@0.2.x` and `Node` >= 6.14.0.
 
 1. Setup dependencies in `package.json`:
 
