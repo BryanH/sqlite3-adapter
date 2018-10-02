@@ -1,6 +1,6 @@
 [![Yarn Version][yarn-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![Build status][build-image]][build-url]
+[![Build status][build-status]][build-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 [![Dependency Status][dependencies-image]][dependencies-url]
 
@@ -63,8 +63,8 @@ To use it you need `jugglingdb@0.2.x`.
 
 [coveralls-url]: https://coveralls.io/github/BryanH/sqlite3-adapter
 [coveralls-image]: https://coveralls.io/repos/github/BryanH/sqlite3-adapter/badge.svg
-[build-url]: https://circleci.com/gh/BryanH/sqlite3-adapter
-[build-image]: https://circleci.com/gh/BryanH/sqlite3-adapter.svg?style=shield
+[build-status]: https://travis-ci.org/BryanH/sqlite3-adapter.svg?branch=master
+[build-url]: https://travis-ci.org/BryanH/sqlite3-adapter
 [yarn-image]: https://img.shields.io/badge/yarn-v1.10.1%20%20-blue.svg
 [npm-url]: https://npmjs.org/package/jugglingdb-sqlite3
 [downloads-image]: https://img.shields.io/npm/dm/jugglingdb-sqlite3.svg
